@@ -1,0 +1,99 @@
+.tab-group {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px 0;
+
+
+  }
+  .tab-group:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .tab-group li a {
+    display: block;
+    text-decoration: none;
+    padding: 15px;
+    background: rgba(160, 179, 176, 0.25);
+    color: #a0b3b0;
+    font-size: 20px;
+    float: left;
+    width: 25%;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.5s ease;
+    border-radius: 30px;
+    
+  }
+  .tab-group li a:hover {
+    background: #c23d46;
+    color: #ffffff;
+  }
+  .tab-group .active a {
+    background: #202444;
+    color: #ffffff;
+  }
+ 
+  
+  .tab-content > div:last-child {
+    display: none;
+  }
+  
+  .top-row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  .top-row > div {
+    float: left;
+    width: 48%;
+    margin-right: 4%;
+  }
+  .top-row > div:last-child {
+    margin: 0;
+  }
+  
+  .button {
+    border: 0;
+    outline: none;
+    border-radius: 0;
+    padding: 15px 0;
+    font-size: 2rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    background: #1ab188;
+    color: #ffffff;
+    transition: all 0.5s ease;
+    -webkit-appearance: none;
+  }
+  .button:hover, .button:focus {
+    background: #179b77;
+  }
+  
+  .button-block {
+    display: block;
+    width: 100%;
+  }
+  
+  .forgot {
+    margin-top: -20px;
+    text-align: right;
+  }
+  
+  #contact-form-questionnare{
+    margin-top: -100px;
+    margin-bottom: 80px;
+  }
+
+ .form-check{
+    margin-bottom: 1000px;
+ }
+
+ .form-check .iform-check-input{
+    background-color: #c23d46;
+ }
+ .form-check label{
+    color: #202444;
+    background-color: red;
+ }
